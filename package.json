@@ -1,0 +1,25 @@
+{
+  "name": "graphql-query-parser",
+  "version": "1.0.0",
+  "description": "parse query which can be kept in json format",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "prepare": "webpack"
+  },
+  "keywords": [
+    "graphql",
+    "apollo-client"
+  ],
+  "author": "Vivek Pandey",
+  "license": "MIT",
+  "devDependencies": {
+    "webpack": "^3.5.6",
+    "babel": "^6.23.0",
+    "babel-core": "^6.13.2",
+    "babel-loader": "^7.1.0",
+    "babel-preset-es2015": "6.13.2",
+    "path": "^0.12.7"
+  }
+}
